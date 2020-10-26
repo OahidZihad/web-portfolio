@@ -26,17 +26,17 @@ h2 {
   width: 100%;
 }
 .top-banner {
+  padding-bottom: 110px;
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
 }
 section {
   height: 500px;
-  padding-bottom: 70px;
 }
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(45deg, orange, tomato);
-  padding: 2px 228px;
+  padding: 2px 232px;
   border-radius: 30px;
   color: white;
   font-weight: 1000;
@@ -51,25 +51,41 @@ section {
   font-weight: 1000;
   font-size: 20px;
 }
+.third-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  padding: 2px 193px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 1000;
+  font-size: 20px;
+}
 .profile-img {
-  padding-top: 3%;
+  padding-top: 40px;
 }
 .paragraph {
   text-align: justify;
   color: dimgray;
 }
 .dream-area {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
   background-position-y: 290px;
   background-size: 80px;
 }
+.bottom-banner {
+  padding-bottom: 30px;
+}
+#provide-service {
+  color: rgb(252, 54, 146);
+}
 #orange-color {
   color: orange;
 }
 #experience {
+  margin-bottom: 35px;
   text-align: center;
   border-radius: 5px;
   color: white;
@@ -85,6 +101,24 @@ section {
   border-radius: 10px;
   height: 80%;
   background-color: white;
+}
+.different-view1 {
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(236, 195, 118, 0.678);
+  border-radius: 10px;
+  height: 97%;
+}
+.different-view2 {
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgb(74, 200, 209, 0.678);
+  border-radius: 10px;
+  height: 70%;
+}
+.different-view3 {
+  padding: 10px;
+  box-shadow: 5px 5px 15px pink;
+  border-radius: 10px;
+  height: 75%;
 }
 .experience-area {
   background-image: url("images/exp-bg.png");
