@@ -6,6 +6,13 @@ h1 {
   font-size: 50px;
   line-height: 50px;
 }
+h2 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.h2-color {
+  color: dodgerblue;
+}
 .name-highlight {
   color: orange;
 }
@@ -35,9 +42,26 @@ section {
   font-weight: 1000;
   font-size: 20px;
 }
+.second-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, rgb(250, 210, 31), orange);
+  padding: 2px 176px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 1000;
+  font-size: 20px;
+}
 .profile-img {
   padding-top: 3%;
 }
 .paragraph {
   text-align: justify;
+  color: dimgray;
+}
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 290px;
+  background-size: 80px;
 }
