@@ -59,6 +59,7 @@ section {
   color: dimgray;
 }
 .dream-area {
+  padding-bottom: 30px;
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -67,4 +68,57 @@ section {
 }
 #orange-color {
   color: orange;
+}
+#experience {
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 30px;
+  margin-left: 560px;
+  margin-right: 560px;
+  background-image: linear-gradient(45deg, orange, tomato);
+}
+.single-experience {
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 80%;
+  background-color: white;
+}
+.experience-area {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-bottom: 20px;
+}
+.exp-para {
+  text-align: justify;
+}
+#html {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#css {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+#web-html {
+  text-align: justify;
+}
+.faka {
+  height: 0px;
+  margin: 0;
+  padding: 35px;
+  background-image: url("images/bottom-banner.png");
+  background-repeat: no-repeat;
+  background-position-x: 450px;
+  background-position-y: -430px;
+}
+.copyright {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
