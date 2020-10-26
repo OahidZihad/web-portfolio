@@ -44,7 +44,7 @@ section {
 }
 .second-button {
   text-decoration: none;
-  background-image: linear-gradient(45deg, rgb(250, 210, 31), orange);
+  background-image: linear-gradient(45deg, tomato, orange);
   padding: 2px 176px;
   border-radius: 30px;
   color: white;
@@ -64,4 +64,7 @@ section {
   background-position: right;
   background-position-y: 290px;
   background-size: 80px;
+}
+#orange-color {
+  color: orange;
 }
